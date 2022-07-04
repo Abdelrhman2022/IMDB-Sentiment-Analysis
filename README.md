@@ -10,4 +10,4 @@ This is a dataset for binary sentiment classification containing substantially m
 
 # Data Preprocessing
 
-The training dataset in aclImdb folder has two sub-directories pos/ for positive texts and neg/ for negative ones. Use only these two directories. The first task is to combine both of them to a single csv file, “imdb_tr.csv”. The csv file has three columns,"row_number" and “text” and “polarity”. The column “text” contains review texts from the aclImdb database and the column “polarity” consists of sentiment labels, 1 for positive and 0 for negative. The file imdb_tr.csv is an output of this preprocessing. In addition, common English stopwords should be removed. An English stopwords reference ('stopwords.en') is given in the code for reference.
+Common English stopwords were removed. An English stopwords reference ('stopwords.en') is given in the code for reference. then manipulate labels of sentiment, 1 for positive and 0 for negative. in addition to the process of clearing punctuation marks in data, cleaning unnecessary marks in data, capitalization to lowercase, and cleaning extra spaces in addition to Removing html strips and noise text.
